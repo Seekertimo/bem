@@ -1,0 +1,40 @@
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(97, 97, 97, 1);
+  -mox-box-shadow: 0px 0px 4px 0px rgba(97, 97, 97, 1);
+  box-shadow: 0px 0px 4px 0px rgba(97, 97, 97, 1);
+  width: 350px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.button {
+  padding: 7px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.card__image-wrapper {
+  height: 150px;
+  overflow: hidden;
+}
+
+.card__information-wrapper {
+  padding: 10px;
+}
+
+.card__information {
+  font-size: 14px;
+}
+
+.button--success {
+  background-color: green;
+}
+
+.button--danger {
+  background-color: green;
+}
